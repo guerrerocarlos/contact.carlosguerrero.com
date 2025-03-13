@@ -7,7 +7,7 @@ import Link from "./Link.astro";
 <header class="profile">
   <div class="profile-picture-content">
     <figure class="profile-picture">
-      <img src={UserProfileImage.src} alt="This is me!" />
+      <img src={dataList.photo} alt="This is me!" />
     </figure>
   </div>
   <div class="profile-data">
@@ -33,8 +33,8 @@ import Link from "./Link.astro";
   }
 
   .profile-picture {
-    width: 6rem;
-    height: 6rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 100%;
     border: 1px solid var(--zinc-800);
     overflow: hidden;

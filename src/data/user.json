@@ -1,31 +1,31 @@
 {
-	"name": "Paula A. G. Rozalen",
-	"profession": "RO&CA",
-	"org": "RO&CA",
-	"website": "https://roandca.com",
-	"social": "https://www.linkedin.com/in/idpaulagonzalezr/",
-	"location": "Madrid, Spain",
+	"photo": "https://github.com/guerrerocarlos.png",
+	"name": "Carlos Guerrero",
+	"profession": "Developer",
+	"org": "carlosguerrero.com",
+	"website": "https://carlosguerrero.com",
+	"social": "https://instagram.com/guerrerocarlos/",
 	"vcard": {
-		"email": "p.rozalen@roandca.com"
+		"email": "contact@carlosguerrero.com"
 	},
 	"links": [
 		{
-			"url": "tel:+34678987323",
+			"url": "tel:+34653596182",
 			"icon": "phone-fill",
 			"title": "mobile",
-			"description": "+34 678 987323"
+			"description": "+34 653 59 61 82"
 		},
 		{
-			"url": "mailto:p.rozalen@roandca.com",
+			"url": "mailto:guerrerocarlos@gmail.com",
 			"icon": "mail-line",
 			"title": "email",
-			"description": "p.rozalen@roandca.com"
+			"description": "guerrerocarlos@gmail.com"
 		},
 		{
-			"url": "https://roandca.com",
+			"url": "https://www.carlosguerrero.com",
 			"icon": "link",
 			"title": "website",
-			"description": "https://roandca.com"
+			"description": "https://www.carlosguerrero.com"
 		}
 	]
 }
