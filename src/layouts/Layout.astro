@@ -1,56 +1,60 @@
 ---
 import dataList from "../data/user.json";
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
-
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/png" href=`${dataList.photo}` />
-        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content=`${dataList.name} contact information.` />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href=`${dataList.photo}` />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 <script>
-	// It it's not "https://" redirect to it
-	if (location.protocol !== "https:") {
-		// If it's not localhost: 
-		if(location.hostname !== "localhost") {
-			location.href = location.href.replace("http:", "https:");
-		}
-	}
+  // It it's not "https://" redirect to it
+  if (location.protocol !== "https:") {
+    // If it's not localhost:
+    if (location.hostname !== "localhost") {
+      location.href = location.href.replace("http:", "https:");
+    }
+  }
 </script>
 <style is:global>
-	:root {
-        --zinc-50: #FAFAFA;
-        --zinc-400: #A1A1AA;
-        --zinc-800: #27272A;
-        --zinc-900: #18181B;
-        --zinc-950: #09090B;
-        --iphone-blue: #0B81FF;
-	}
+  :root {
+    --zinc-50: #fafafa;
+    --zinc-400: #a1a1aa;
+    --zinc-800: #27272a;
+    --zinc-900: #18181b;
+    --zinc-950: #09090b;
+    --iphone-blue: #0b81ff;
+  }
 
-    *, *::before, *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-	html {
-		font-family: 'Satoshi', system-ui, sans-serif;
-		background: var(--zinc-950);
-        color: var(--zinc-50)
-	}
+  html {
+    font-family: "Satoshi", system-ui, sans-serif;
+    background: var(--zinc-950);
+    color: var(--zinc-50);
+  }
 </style>
