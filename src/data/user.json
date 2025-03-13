@@ -10,6 +10,12 @@
 	},
 	"links": [
 		{
+			"url": "https://wa.me/qr/PVZTFJDU3YOPE1",
+			"icon": "whatsapp-line",
+			"title": "WhatsApp",
+			"description": "Send Message"
+		},
+		{
 			"url": "tel:+34653596182",
 			"icon": "phone-fill",
 			"title": "mobile",
