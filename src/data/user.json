@@ -13,7 +13,7 @@
 			"url": "https://wa.me/qr/PVZTFJDU3YOPE1",
 			"icon": "whatsapp-line",
 			"title": "WhatsApp",
-			"description": "Send Message"
+			"description": "Send Message 🚀"
 		},
 		{
 			"url": "tel:+34653596182",
@@ -22,16 +22,22 @@
 			"description": "+34 653 59 61 82"
 		},
 		{
-			"url": "mailto:guerrerocarlos@gmail.com",
+			"url": "mailto:hello@carlosguerrero.com.com",
 			"icon": "mail-line",
 			"title": "email",
-			"description": "guerrerocarlos@gmail.com"
+			"description": "hello@carlosguerrero.com"
 		},
 		{
-			"url": "https://www.carlosguerrero.com",
+			"url": "https://instagram.com/guerrerocarlos",
+			"icon": "instagram-line",
+			"title": "Instagram",
+			"description": "@guerrerocarlos"
+		},
+		{
+			"url": "https://cv.carlosguerrero.com",
 			"icon": "link",
-			"title": "website",
-			"description": "https://www.carlosguerrero.com"
+			"title": "Curriculum Vitae",
+			"description": "https://cv.carlosguerrero.com"
 		}
 	]
 }
