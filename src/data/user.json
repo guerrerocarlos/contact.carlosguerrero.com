@@ -3,11 +3,12 @@
 	"name": "Carlos Guerrero",
 	"profession": "Developer",
 	"org": "carlosguerrero.com",
-	"website": "https://carlosguerrero.com",
-	"social": "https://instagram.com/guerrerocarlos/",
 	"vcard": {
 		"email": "contact@carlosguerrero.com",
-		"phone": "+34653596182"
+		"phone": "+34653596182",
+		"website": "https://carlosguerrero.com",
+		"portfolio": "https://cv.carlosguerrero.com",
+		"social": "https://instagram.com/guerrerocarlos/"
 	},
 	"links": [
 		{
